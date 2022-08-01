@@ -1,4 +1,46 @@
 {
+    // color theme
+    "workbench.colorTheme": "Vitesse Dark",
+    "workbench.preferredDarkColorTheme": "Vitesse Dark",
+    "workbench.preferredLightColorTheme": "Vitesse Light",
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.iconTheme": "file-icons",
+    "workbench.fontAliasing": "auto", // 字体渲染方式, 平滑度
+    "editor.fontFamily": "JetBrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    // editor
+    // "editor.accessibilitySupport": "off",
+    "editor.cursorSmoothCaretAnimation": true, // 平滑光标
+    "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
     "editor.formatOnPaste": true, // 粘贴时格式化
-    "editor.minimap.enabled": true, // 启用缩略图
+    "editor.guides.bracketPairs": "active", // 类似Bracket Pair
+    "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
+    "editor.renderWhitespace": "boundary", // 显式显示空格
+    "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
+    "editor.tabSize": 2,
+    "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false,
+        "source.fixAll.eslint": true, // 保存时eslint自动修复
+        "source.organizeImports": true // 保存时整理import语句
+    },
+    "explorer.confirmDelete": false, // 删除文件时不确认
+    "files.autoSave": "afterDelay", // 文件延迟保存
+    "files.autoSaveDelay": 1500, // 延迟保存时间
+    "window.autoDetectColorScheme": true, // 自动深色模式
+    "window.dialogStyle": "custom", // 对话框外观, 微软风格
+    "window.openFoldersInNewWindow": "on", // 在新窗口中打开文件夹
+    "workbench.editor.highlightModifiedTabs": true, // 高亮未保存的tab
+    "workbench.list.smoothScrolling": true, // 平滑滚动
+    "workbench.sideBar.location": "right", // 侧边栏位置
+    "workbench.tree.expandMode": "singleClick", // 单击展开树
+    "workbench.tree.indent": 10, // 树缩进
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true, // 不显示建议扩展
+    "files.eol": "\n", // 行尾字符, LF
+    "files.insertFinalNewline": false, // 文件末尾插入新行
+    "files.simpleDialog.enable": false, // 简单文件对话框
+    "git.autofetch": true,
+    "git.enableSmartCommit": true, // 没有暂存时提交所有更改
+    "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
 }
