@@ -1,0 +1,4 @@
+{
+    "editor.formatOnPaste": true, // 粘贴时格式化
+    "editor.minimap.enabled": true, // 启用缩略图
+}
