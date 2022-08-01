@@ -10,11 +10,14 @@
     "editor.fontSize": 14,
     // editor
     // "editor.accessibilitySupport": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
     "editor.cursorSmoothCaretAnimation": true, // 平滑光标
     "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
     "editor.formatOnPaste": true, // 粘贴时格式化
     "editor.guides.bracketPairs": "active", // 类似Bracket Pair
+    "editor.hover.above": false,
     "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
+    "editor.linkedEditing": true, // auto rename tag
     "editor.renderWhitespace": "boundary", // 显式显示空格
     "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
     "editor.tabSize": 2,
@@ -43,4 +46,25 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
+    "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
+    "debug.onTaskErrors": "debugAnyway",
+    "diffEditor.ignoreTrimWhitespace": true, // 忽略diff视图空格修改
+    "search.exclude": {
+        "**/.git": true,
+        "**/.github": true,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/bower_components": true,
+        "**/logs": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/tmp": true,
+        "**/yarn.lock": true,
+        "**/*.code-search": true
+    }
 }

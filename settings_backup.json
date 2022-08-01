@@ -34,35 +34,8 @@
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   "css.lint.hexColorLength": "ignore",
-  "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.ignoreTrimWhitespace": true,
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  // "editor.fontFamily": "JetBrains Mono NL, Consolas, 'Courier New', monospace",
   // }
   // {
-  "editor.accessibilitySupport": "off",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
-    "source.organizeImports": false
-  },
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.find.addExtraSpaceOnTop": false,
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
-  "editor.fontSize": 16,
-  "editor.formatOnPaste": true, // 粘贴时格式化
-  "editor.glyphMargin": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.hover.above": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.lineNumbers": "on",
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": true, // 启用缩略图
-  "editor.multiCursorModifier": "alt",
-  "editor.renderWhitespace": "boundary",
-  "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "editor.unicodeHighlight.invisibleCharacters": false,
   // Extension configs
   "emmet.showSuggestionsAsSnippets": true,
   "emmet.triggerExpansionOnTab": false,
