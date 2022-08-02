@@ -16,7 +16,6 @@
         "MariusAlchimavicius.json-to-ts",
         "antfu.unocss",
         "christian-kohler.path-intellisense",
-        "rvest.vs-code-prettier-eslint",
         // recommended
         "wayou.vscode-todo-highlight",
         "naumovs.color-highlight",
