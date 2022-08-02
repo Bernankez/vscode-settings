@@ -120,6 +120,52 @@
     "cSpell.allowCompoundWords": true,
     "cSpell.language": "en,en-US",
     "css.lint.hexColorLength": "ignore",
+    "gitlens.codeLens.authors.enabled": true,
+    "gitlens.codeLens.enabled": false, // true会导致文件保存时 vscode来回抖动
+    "gitlens.codeLens.recentChange.enabled": true,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": true
+        },
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "authors": true
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
     "iconify.annotations": true,
     "iconify.inplace": true,
     "volar.autoCompleteRefs": false,
