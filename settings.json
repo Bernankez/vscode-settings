@@ -25,7 +25,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": false,
         "source.fixAll.eslint": true, // 保存时eslint自动修复
-        "source.organizeImports": true // 保存时整理import语句
+        "source.organizeImports": false // 保存时整理import语句
     },
     "explorer.confirmDelete": false, // 删除文件时不确认
     "files.autoSave": "afterDelay", // 文件延迟保存
