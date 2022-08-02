@@ -14,7 +14,7 @@
         "eamodio.gitlens",
         "mhutchie.git-graph",
         "MariusAlchimavicius.json-to-ts",
-        "antfu.unocss"
+        "antfu.unocss",
         // recommended
         "wayou.vscode-todo-highlight",
         "naumovs.color-highlight",
