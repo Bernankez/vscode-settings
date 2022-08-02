@@ -62,7 +62,7 @@
         }
     ],
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontSize": 13,
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
     "debug.onTaskErrors": "debugAnyway",
     "diffEditor.ignoreTrimWhitespace": true, // 忽略diff视图空格修改
