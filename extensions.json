@@ -1,5 +1,16 @@
 {
-    "recommendations":[
-        "MS-CEINTL.vscode-language-pack-zh-hans"
+    "recommendations": [
+        // necessary
+        "antfu.icons-carbon", // product icon theme
+        "file-icons.file-icons", // icon theme
+        "antfu.theme-vitesse", // theme
+        "MS-CEINTL.vscode-language-pack-zh-hans", // 中文
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "dbaeumer.vscode-eslint",
+        "GitHub.copilot",
+        "antfu.iconify",
+        "richie5um2.vscode-sort-json",
+        "Vue.volar"
     ]
 }
