@@ -6,11 +6,27 @@
         "antfu.theme-vitesse", // theme
         "MS-CEINTL.vscode-language-pack-zh-hans", // 中文
         "streetsidesoftware.code-spell-checker",
-        "usernamehw.errorlens",
+        "usernamehw.errorlens", // show error inline
         "dbaeumer.vscode-eslint",
         "GitHub.copilot",
         "antfu.iconify",
+        "Vue.volar",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "MariusAlchimavicius.json-to-ts",
+        "antfu.unocss"
+        // recommended
+        "wayou.vscode-todo-highlight",
+        "naumovs.color-highlight",
         "richie5um2.vscode-sort-json",
-        "Vue.volar"
+        "kisstkondoros.vscode-gutter-preview",
+        "wix.vscode-import-cost",
+        "rangav.vscode-thunder-client",
+        // up to me
+        "adpyke.codesnap",
+        "oderwat.indent-rainbow",
+        "Gerrnperl.outline-map",
+        "WallabyJs.quokka-vscode",
+        "iceworks-team.iceworks-time-master"
     ]
 }
