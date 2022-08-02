@@ -173,6 +173,10 @@
     "volar.codeLens.scriptSetupTools": true,
     "volar.completion.preferredTagNameCase": "pascal",
     "volar.takeOverMode.enabled": "auto",
+    // file associations
+    "files.associations": {
+        "*.json": "jsonc"
+    },
     // file nesting
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.expand": true,
