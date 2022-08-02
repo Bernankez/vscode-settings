@@ -13,7 +13,11 @@
     "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
     "editor.cursorSmoothCaretAnimation": true, // 平滑光标
     "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
-    "editor.formatOnPaste": true, // 粘贴时格式化
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnPaste": false, // 粘贴时格式化, prettier-eslint required
+    "editor.formatOnType": false, // 键入一行后格式化该行, prettier-eslint required
+    "editor.formatOnSave": true, // 保存时格式化
+    "editor.formatOnSaveMode": "modificationsIfAvailable", // 只对修改的部分格式化
     "editor.guides.bracketPairs": "active", // 类似Bracket Pair
     "editor.hover.above": false,
     "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
@@ -24,7 +28,7 @@
     "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
     "editor.codeActionsOnSave": {
         "source.fixAll": false,
-        "source.fixAll.eslint": true, // 保存时eslint自动修复
+        "source.fixAll.eslint": false, // 保存时eslint自动修复
         "source.organizeImports": false // 保存时整理import语句
     },
     "explorer.confirmDelete": false, // 删除文件时不确认
