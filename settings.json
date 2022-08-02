@@ -46,6 +46,21 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
+    "todohighlight.isCaseSensitive": true, // 大小写敏感
+    "todohighlight.isEnable": true, // 启用todo highlight
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#fbe3e3",
+            "color": "#ff5151",
+            "text": "NOTE"
+        },
+        {
+            "backgroundColor": "#FFFF99",
+            "color": "red",
+            "isWholeLine": true, // 整行显示
+            "text": "TODO"
+        }
+    ],
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
@@ -84,7 +99,7 @@
         "enable": true
     },
     "eslint.quiet": true, // ignores warnings
-    "eslint.validate": [
+    "eslint.probe": [
         "javascript",
         "typescript",
         "javascriptreact",
@@ -111,6 +126,7 @@
     "volar.codeLens.pugTools": false,
     "volar.codeLens.scriptSetupTools": true,
     "volar.completion.preferredTagNameCase": "pascal",
+    "volar.takeOverMode.enabled": "auto",
     // file nesting
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.expand": true,
