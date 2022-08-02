@@ -86,6 +86,8 @@
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": false,
+    "javascript.suggest.paths": false, // path intellisense requires
+    "typescript.suggest.paths": false, // path intellisense requires
     "errorLens.enabledDiagnosticLevels": [
         "error",
         "warning"

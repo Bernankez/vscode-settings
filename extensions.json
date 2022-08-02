@@ -15,6 +15,7 @@
         "mhutchie.git-graph",
         "MariusAlchimavicius.json-to-ts",
         "antfu.unocss",
+        "christian-kohler.path-intellisense",
         // recommended
         "wayou.vscode-todo-highlight",
         "naumovs.color-highlight",
