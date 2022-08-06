@@ -12,6 +12,7 @@
     // "editor.accessibilitySupport": "off",
     "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
     "editor.cursorSmoothCaretAnimation": true, // 平滑光标
+    "editor.experimental.stickyScroll.enabled": true, // 当前代码块首行固定
     "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
     "editor.formatOnPaste": true, // 粘贴时格式化
     "editor.guides.bracketPairs": "active", // 类似Bracket Pair
