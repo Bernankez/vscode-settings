@@ -75,7 +75,6 @@
     "emmet.triggerExpansionOnTab": false,
     "javascript.suggest.paths": false, // path intellisense requires
     "typescript.suggest.paths": false, // path intellisense requires
-    "EnglishChineseDictionary.enableHover": true,
     "errorLens.enabledDiagnosticLevels": [
         "error",
         "warning"
