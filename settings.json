@@ -47,21 +47,6 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
-    "todohighlight.isCaseSensitive": true, // 大小写敏感
-    "todohighlight.isEnable": true, // 启用todo highlight
-    "todohighlight.keywords": [
-        {
-            "backgroundColor": "#fbe3e3",
-            "color": "#ff5151",
-            "text": "NOTE"
-        },
-        {
-            "backgroundColor": "#FFFF99",
-            "color": "red",
-            "isWholeLine": true, // 整行显示
-            "text": "TODO"
-        }
-    ],
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
@@ -85,10 +70,12 @@
         "**/yarn.lock": true,
         "**/*.code-search": true
     },
+    // extensions
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": false,
     "javascript.suggest.paths": false, // path intellisense requires
     "typescript.suggest.paths": false, // path intellisense requires
+    "EnglishChineseDictionary.enableHover": true,
     "errorLens.enabledDiagnosticLevels": [
         "error",
         "warning"
@@ -171,6 +158,21 @@
     },
     "iconify.annotations": true,
     "iconify.inplace": true,
+    "todohighlight.isCaseSensitive": true, // 大小写敏感
+    "todohighlight.isEnable": true, // 启用todo highlight
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#fbe3e3",
+            "color": "#ff5151",
+            "text": "NOTE"
+        },
+        {
+            "backgroundColor": "#FFFF99",
+            "color": "red",
+            "isWholeLine": true, // 整行显示
+            "text": "TODO"
+        }
+    ],
     "volar.autoCompleteRefs": false,
     "volar.codeLens.pugTools": false,
     "volar.codeLens.scriptSetupTools": true,
