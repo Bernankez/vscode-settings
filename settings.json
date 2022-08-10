@@ -45,6 +45,7 @@
     "files.insertFinalNewline": false, // 文件末尾插入新行
     "files.simpleDialog.enable": false, // 简单文件对话框
     "git.autofetch": true,
+    "git.confirmSync": false,
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
