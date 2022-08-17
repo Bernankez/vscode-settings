@@ -17,7 +17,7 @@
   },
   "vue-script-setup": {
     "scope": "vue",
-    "prefix": "<sc",
+    "prefix": "<te",
     "body": [
       "<template>",
       "</template>",
