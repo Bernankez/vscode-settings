@@ -19,6 +19,7 @@
     "editor.hover.above": false,
     "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
     "editor.linkedEditing": true, // auto rename tag
+    "editor.minimap.showSlider": "always", // 始终显示小地图滑块
     "editor.renderWhitespace": "boundary", // 显式显示空格
     "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
     "editor.tabSize": 2,
@@ -45,7 +46,7 @@
     "files.insertFinalNewline": false, // 文件末尾插入新行
     "files.simpleDialog.enable": false, // 简单文件对话框
     "git.autofetch": true,
-    "git.confirmSync": false,
+    "git.confirmSync": false, // git同步时不确认
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
@@ -53,6 +54,7 @@
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
     "debug.onTaskErrors": "debugAnyway",
     "diffEditor.ignoreTrimWhitespace": true, // 忽略diff视图空格修改
+    "security.workspace.trust.untrustedFiles": "open",
     "search.exclude": {
         "**/.git": true,
         "**/.github": true,
