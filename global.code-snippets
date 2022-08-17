@@ -20,9 +20,9 @@
     "prefix": "<te",
     "body": [
       "<template>",
+      "$1",
       "</template>",
       "<script setup lang=\"ts\">",
-      "$1",
       "</script>",
       "<style lang=\"scss\" scoped>",
       "</style>"
