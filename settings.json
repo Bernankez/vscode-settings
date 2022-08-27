@@ -22,6 +22,7 @@
     "editor.minimap.showSlider": "always", // 始终显示小地图滑块
     "editor.renderWhitespace": "boundary", // 显式显示空格
     "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
+    "editor.suggest.snippetsPreventQuickSuggestions": false, // 活动的代码块不阻止快速建议 important
     "editor.tabSize": 2,
     "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
     "editor.codeActionsOnSave": {
