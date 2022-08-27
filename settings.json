@@ -103,12 +103,6 @@
         "jsonc",
         "json5"
     ],
-    "github.copilot.enable": {
-        "*": true,
-        "markdown": true,
-        "plaintext": false,
-        "yaml": false
-    },
     "cSpell.allowCompoundWords": true,
     "cSpell.language": "en,en-US",
     "css.lint.hexColorLength": "ignore",
