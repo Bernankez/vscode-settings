@@ -11,8 +11,7 @@
     // editor
     // "editor.accessibilitySupport": "off",
     "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
-    "editor.cursorSmoothCaretAnimation": true, // 平滑光标
-    "editor.experimental.stickyScroll.enabled": true, // 当前代码块首行固定
+    "editor.cursorSmoothCaretAnimation": true, // 当前代码块首行固定
     "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
     "editor.formatOnPaste": true, // 粘贴时格式化
     "editor.guides.bracketPairs": "active", // 类似Bracket Pair
@@ -21,8 +20,10 @@
     "editor.linkedEditing": true, // auto rename tag
     "editor.minimap.showSlider": "always", // 始终显示小地图滑块
     "editor.renderWhitespace": "boundary", // 显式显示空格
-    "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
+    "editor.stickyScroll.enabled": true, // 当前代码块首行固定
+    "editor.suggest.matchOnWordStartOnly": false, // 匹配snippets时不止匹配snippets开头
     "editor.suggest.snippetsPreventQuickSuggestions": false, // 活动的代码块不阻止快速建议 important
+    "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
     "editor.tabSize": 2,
     "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
     "editor.codeActionsOnSave": {
@@ -174,6 +175,7 @@
     "volar.codeLens.pugTools": false,
     "volar.codeLens.scriptSetupTools": true,
     "volar.completion.preferredTagNameCase": "pascal",
+    "volar.completion.preferredAttrNameCase": "auto-camel", // auto detected, preferred camelCase
     "volar.takeOverMode.enabled": "auto",
     // file associations
     "files.associations": {
