@@ -6,8 +6,9 @@
     "workbench.productIconTheme": "icons-carbon",
     "workbench.iconTheme": "file-icons",
     "workbench.fontAliasing": "auto", // 字体渲染方式, 平滑度, macOS only
-    "editor.fontFamily": "JetBrains Mono NL, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Maple Mono Regular, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 14,
+    "editor.lineHeight": 1.6,
     // editor
     // "editor.accessibilitySupport": "off",
     "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
