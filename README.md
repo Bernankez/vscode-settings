@@ -8,8 +8,8 @@ extends [antfu/vscode-settings](https://github.com/antfu/vscode-settings)
 
 <br>
 <p align="center">
-  Preview
-  <img src="https://user-images.githubusercontent.com/23058788/188405331-d57392d6-3161-427d-af16-5e83b54814a7.png" />
+  <samp>Preview</samp><br><br>
+  <img src="https://user-images.githubusercontent.com/23058788/188406267-5f4967f6-c6f8-44e2-9651-a74c4cdde6c3.png" />
 </p>
 <br>
 <div style="display: flex;justify-content: center">
