@@ -1,3 +1,7 @@
-# vscode-settings
+<samp><b>Cole's VS Code Settings</b></samp>
 
-vscode settings backup
+[`./settings.json`](./settings.json) settings<br>
+[`./extensions.json`](./extensions.json) extensions<br>
+[`./global.code-snippets`](./global.code-snippets) snippets
+
+extends [antfu/vscode-settings](https://github.com/antfu/vscode-settings)
