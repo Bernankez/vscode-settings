@@ -10,7 +10,7 @@ extends [antfu/vscode-settings](https://github.com/antfu/vscode-settings)
 <br>
 <p align="center">
   <samp>Preview</samp><br><br>
-  <img src="https://user-images.githubusercontent.com/23058788/188406267-5f4967f6-c6f8-44e2-9651-a74c4cdde6c3.png" />
+  <img src="https://user-images.githubusercontent.com/23058788/191067585-2c025381-82e0-41a4-943f-e86e0b35209a.png">
 </p>
 <br>
 <p align="center">
