@@ -23,6 +23,7 @@
         "kisstkondoros.vscode-gutter-preview",
         "wix.vscode-import-cost",
         "rangav.vscode-thunder-client",
+        "johnsoncodehk.vscode-tsconfig-helper", // check what files tsconfig contains.
         // up to me
         "adpyke.codesnap",
         "oderwat.indent-rainbow",
