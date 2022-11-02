@@ -27,6 +27,7 @@
     "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
     "editor.tabSize": 2,
     "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
+    "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
         "source.fixAll": false,
         "source.fixAll.eslint": true, // 保存时eslint自动修复
