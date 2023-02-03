@@ -12,7 +12,7 @@
     // editor
     // "editor.accessibilitySupport": "off",
     "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
-    "editor.cursorSmoothCaretAnimation": true, // 当前代码块首行固定
+    "editor.cursorSmoothCaretAnimation": "on", // 平滑光标动画
     "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
     "editor.formatOnPaste": true, // 粘贴时格式化
     "editor.guides.bracketPairs": "active", // 类似Bracket Pair
@@ -24,6 +24,7 @@
     "editor.stickyScroll.enabled": true, // 当前代码块首行固定
     "editor.suggest.matchOnWordStartOnly": false, // 匹配snippets时不止匹配snippets开头
     "editor.suggest.snippetsPreventQuickSuggestions": false, // 活动的代码块不阻止快速建议 important
+    // "editor.suggest.selectionMode": "never", // 不要自动选择建议
     "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
     "editor.tabSize": 2,
     "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
@@ -39,6 +40,8 @@
     "window.autoDetectColorScheme": true, // 自动深色模式
     "window.dialogStyle": "custom", // 对话框外观, 微软风格
     "window.openFoldersInNewWindow": "on", // 在新窗口中打开文件夹
+    "window.menuBarVisibility": "classic", // 菜单栏显示在侧边栏中
+    // "window.menuBarVisibility": "compact", // 菜单栏显示在侧边栏中
     "workbench.editor.highlightModifiedTabs": true, // 高亮未保存的tab
     "workbench.list.smoothScrolling": true, // 平滑滚动
     "workbench.sideBar.location": "right", // 侧边栏位置
@@ -53,6 +56,8 @@
     "git.confirmSync": false, // git同步时不确认
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
+    "git.openRepositoryInParentFolders": "always", // 父文件夹的git仓库是否应当显示在git视图中
+    "mergeEditor.diffAlgorithm": "experimental", // 新版合并编辑器的差异视图
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
@@ -80,6 +85,7 @@
     // extensions
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": false,
+    "emmet.showExpandedAbbreviation": "never", // 将展开的Emmet缩写作为建议进行显示
     "javascript.suggest.paths": false, // path intellisense requires
     "typescript.suggest.paths": false, // path intellisense requires
     "errorLens.enabledDiagnosticLevels": [
