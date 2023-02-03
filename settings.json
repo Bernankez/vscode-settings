@@ -7,7 +7,7 @@
     "workbench.iconTheme": "file-icons",
     "workbench.fontAliasing": "auto", // 字体渲染方式, 平滑度, macOS only
     "editor.fontFamily": "Maple Mono Regular, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 17,
     "editor.lineHeight": 1.6,
     // editor
     // "editor.accessibilitySupport": "off",
@@ -40,8 +40,7 @@
     "window.autoDetectColorScheme": true, // 自动深色模式
     "window.dialogStyle": "custom", // 对话框外观, 微软风格
     "window.openFoldersInNewWindow": "on", // 在新窗口中打开文件夹
-    "window.menuBarVisibility": "classic", // 菜单栏显示在侧边栏中
-    // "window.menuBarVisibility": "compact", // 菜单栏显示在侧边栏中
+    "window.menuBarVisibility": "compact", // 菜单栏显示在侧边栏中
     "workbench.editor.highlightModifiedTabs": true, // 高亮未保存的tab
     "workbench.list.smoothScrolling": true, // 平滑滚动
     "workbench.sideBar.location": "right", // 侧边栏位置
@@ -59,7 +58,7 @@
     "git.openRepositoryInParentFolders": "always", // 父文件夹的git仓库是否应当显示在git视图中
     "mergeEditor.diffAlgorithm": "experimental", // 新版合并编辑器的差异视图
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 15,
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
     "debug.onTaskErrors": "debugAnyway",
     "diffEditor.ignoreTrimWhitespace": true, // 忽略diff视图空格修改
