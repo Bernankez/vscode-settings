@@ -33,7 +33,7 @@
   },
   "console.log": {
     "scope": "javascript,typescript",
-    "prefix": "clg",
+    "prefix": ["clg", "conso"],
     "body": "console.log($1)"
   },
   "if-vitest": {
