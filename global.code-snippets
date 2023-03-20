@@ -1,6 +1,6 @@
 {
   "import": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "im",
     "body": [
       "import { $1 } from \"$2\";"
@@ -8,7 +8,7 @@
     "description": "Import a module"
   },
   "export-all": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "ex",
     "body": [
       "export * from \"$2\";"
@@ -32,12 +32,12 @@
     ]
   },
   "console.log": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": ["clg", "conso"],
     "body": "console.log($1)"
   },
   "if-vitest": {
-    "scope": "javascript,typescript",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "ifv",
     "body": [
       "if (import.meta.vitest) {",
