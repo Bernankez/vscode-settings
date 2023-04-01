@@ -95,7 +95,7 @@
         "cSpell",
         "Grammarly",
         "eslint",
-        "stylelint"
+        "Stylelint"
     ],
     "eslint.codeAction.showDocumentation": {
         "enable": true
@@ -120,7 +120,9 @@
     "stylelint.validate": [
         "css",
         "postcss",
-        "vue"
+        "vue",
+        "html"
+        // and other extensions you would like to lint
     ],
     "cSpell.allowCompoundWords": true,
     "cSpell.language": "en,en-US",
