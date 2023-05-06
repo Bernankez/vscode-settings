@@ -56,7 +56,6 @@
     "git.enableSmartCommit": true, // 没有暂存时提交所有更改
     "git.untrackedChanges": "separate", // 没有被跟踪的代码单独显示
     "git.openRepositoryInParentFolders": "always", // 父文件夹的git仓库是否应当显示在git视图中
-    "mergeEditor.diffAlgorithm": "experimental", // 新版合并编辑器的差异视图
     "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
@@ -126,6 +125,7 @@
     ],
     "cSpell.allowCompoundWords": true,
     "cSpell.language": "en,en-US",
+    "cSpell.userWords": ["nuxt", "gsap"],
     "css.lint.hexColorLength": "ignore",
     "gitlens.codeLens.authors.enabled": true,
     "gitlens.codeLens.enabled": false, // true会导致文件保存时 vscode来回抖动
@@ -190,12 +190,13 @@
             "text": "TODO"
         }
     ],
-    "volar.autoCompleteRefs": false,
-    "volar.codeLens.pugTools": false,
-    "volar.codeLens.scriptSetupTools": true,
-    "volar.completion.preferredTagNameCase": "pascal",
-    "volar.completion.preferredAttrNameCase": "auto-camel", // auto detected, preferred camelCase
-    "volar.takeOverMode.enabled": "auto",
+    // volar
+    // 状态栏不显示name casing信息
+    "vue.complete.casing.status": false,
+    // 自动添加.value
+    "vue.autoInsert.dotValue": true,
+    // 显示缺失的必填prop
+    "vue.inlayHints.missingProps": true,
     // file associations
     "files.associations": {
         "*.json": "jsonc"
