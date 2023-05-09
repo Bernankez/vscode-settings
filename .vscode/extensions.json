@@ -25,6 +25,7 @@
         "rangav.vscode-thunder-client",
         "johnsoncodehk.vscode-tsconfig-helper", // check what files tsconfig contains.
         "stylelint.vscode-stylelint", // lint for css
+        "yoavbls.pretty-ts-errors", // friendly ts error prompt
         // up to me
         "adpyke.codesnap",
         "oderwat.indent-rainbow",
