@@ -26,6 +26,7 @@
         "johnsoncodehk.vscode-tsconfig-helper", // check what files tsconfig contains.
         "stylelint.vscode-stylelint", // lint for css
         "yoavbls.pretty-ts-errors", // friendly ts error prompt
+        "antfu.goto-alias", // go to defination alias for auto-import
         // up to me
         "adpyke.codesnap",
         "oderwat.indent-rainbow",
