@@ -197,6 +197,8 @@
     "vue.autoInsert.dotValue": true,
     // 显示缺失的必填prop
     "vue.inlayHints.missingProps": true,
+    // 显示缺失的行内函数的event argument
+    "vue.inlayHints.inlineHandlerLeading": true,
     // file associations
     "files.associations": {
         "*.json": "jsonc"
