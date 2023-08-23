@@ -38,6 +38,7 @@
     "files.autoSave": "afterDelay", // 文件延迟保存
     "files.autoSaveDelay": 1500, // 延迟保存时间
     "window.autoDetectColorScheme": true, // 自动深色模式
+    "window.commandCenter": false, // 命令中心
     "window.dialogStyle": "custom", // 对话框外观, 微软风格
     "window.openFoldersInNewWindow": "on", // 在新窗口中打开文件夹
     "window.menuBarVisibility": "compact", // 菜单栏显示在侧边栏中
