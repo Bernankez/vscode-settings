@@ -10,7 +10,7 @@
     "editor.fontSize": 17,
     "editor.lineHeight": 1.6,
     // editor
-    // "editor.accessibilitySupport": "off",
+    "editor.accessibilitySupport": "auto",
     "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
     "editor.cursorSmoothCaretAnimation": "on", // 平滑光标动画
     "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
