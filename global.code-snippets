@@ -20,7 +20,7 @@
     "prefix": "<te",
     "body": [
       "<template>",
-      "$1",
+      "$0",
       "</template>",
       "",
       "<script setup lang=\"ts\">",
