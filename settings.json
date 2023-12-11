@@ -18,6 +18,7 @@
   "editor.guides.bracketPairs": "active", // 类似Bracket Pair
   "editor.hover.above": false,
   "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
+  "editor.inlayHints.enabled": "on", // 行内类型提示
   "editor.linkedEditing": true, // auto rename tag
   "editor.minimap.showSlider": "always", // 始终显示小地图滑块
   "editor.renderWhitespace": "boundary", // 显式显示空格
@@ -28,6 +29,7 @@
   "editor.suggestSelection": "recentlyUsed", // 最近用过的建议往前排
   "editor.tabSize": 2,
   "editor.unicodeHighlight.invisibleCharacters": false, // 不突出显示零宽字符
+  "editor.occurrencesHighlight": "multiFile", // 多视图下高亮内容同步显示
   "explorer.confirmDelete": false, // 删除文件时不确认
   "files.autoSave": "afterDelay", // 文件延迟保存
   "files.autoSaveDelay": 1500, // 延迟保存时间
@@ -55,6 +57,7 @@
   "terminal.integrated.fontFamily": "agave NF r, Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
+  "terminal.integrated.stickyScroll.enabled": true, // 终端顶部命令sticky, 将来版本将默认为true
   "debug.onTaskErrors": "debugAnyway",
   "diffEditor.ignoreTrimWhitespace": true, // 忽略diff视图空格修改
   "security.workspace.trust.untrustedFiles": "open",
@@ -117,6 +120,7 @@
   "emmet.showExpandedAbbreviation": "never", // 将展开的Emmet缩写作为建议进行显示
   "javascript.suggest.paths": false, // path intellisense requires
   "typescript.suggest.paths": false, // path intellisense requires
+  "typescript.preferences.preferTypeOnlyAutoImports": true, // 默认使用`type`导入
   "errorLens.enabledDiagnosticLevels": ["error", "warning"],
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint", "Stylelint"],
   "cSpell.allowCompoundWords": true,
