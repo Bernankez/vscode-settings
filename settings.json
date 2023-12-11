@@ -43,6 +43,7 @@
     "window.openFoldersInNewWindow": "on", // 在新窗口中打开文件夹
     "window.menuBarVisibility": "compact", // 菜单栏显示在侧边栏中
     "workbench.editor.highlightModifiedTabs": true, // 高亮未保存的tab
+    "workbench.tree.enableStickyScroll": true, // 侧边栏目录sticky效果, 默认7级
     "workbench.list.smoothScrolling": true, // 平滑滚动
     "workbench.sideBar.location": "right", // 侧边栏位置
     "workbench.tree.expandMode": "singleClick", // 单击展开树
