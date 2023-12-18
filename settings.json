@@ -175,7 +175,7 @@
   },
   "githubPullRequests.createOnPublishBranch": "never", // GitHub提交分支时不创建pr
   "iconify.annotations": true,
-  "iconify.inplace": true,
+  "iconify.inplace": false,
   "todohighlight.isCaseSensitive": true, // 大小写敏感
   "todohighlight.isEnable": true, // 启用todo highlight
   "todohighlight.keywords": [
