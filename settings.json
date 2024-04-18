@@ -6,15 +6,15 @@
   "workbench.productIconTheme": "icons-carbon",
   "workbench.iconTheme": "file-icons",
   "workbench.fontAliasing": "auto", // 字体渲染方式, 平滑度, macOS only
-  "editor.fontFamily": "Maple Mono Regular, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 17,
+  "editor.fontFamily": "Maple Mono SC NF, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 18,
   "editor.lineHeight": 1.6,
   // editor
   "editor.accessibilitySupport": "auto",
   "editor.acceptSuggestionOnCommitCharacter": false, // 输入符号时不把建议上屏
   "editor.cursorSmoothCaretAnimation": "on", // 平滑光标动画
   "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
-  "editor.formatOnPaste": true, // 粘贴时格式化
+  "editor.formatOnPaste": false, // 粘贴时格式化
   "editor.guides.bracketPairs": "active", // 类似Bracket Pair
   "editor.hover.above": false,
   "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
@@ -59,7 +59,6 @@
   "terminal.integrated.persistentSessionReviveProcess": "never", // 不要还原终端缓冲区
   "terminal.integrated.stickyScroll.enabled": true, // 终端顶部命令sticky, 将来版本将默认为true
   "debug.onTaskErrors": "debugAnyway",
-  "diffEditor.ignoreTrimWhitespace": true, // 忽略diff视图空格修改
   "security.workspace.trust.untrustedFiles": "open",
   "search.exclude": {
     "**/.git": true,
@@ -80,28 +79,47 @@
     "**/*.code-search": true
   },
   // lint
+  "prettier.enable": false,
   "editor.formatOnSave": false,
+  // eslint flat config support
+  "eslint.experimental.useFlatConfig": true,
+  // auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit",
     "source.organizeImports": "never"
   },
-  // "eslint.experimental.useFlatConfig": true, // eslint flat config support
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
   "eslint.quiet": true, // ignores warnings
-  "eslint.probe": [
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+  // Enable eslint for all supported languages
+  "eslint.validate": [
     "javascript",
-    "typescript",
     "javascriptreact",
+    "typescript",
     "typescriptreact",
     "vue",
     "html",
     "markdown",
+    "mdx",
     "json",
     "jsonc",
-    "yaml"
+    "yaml",
+    "toml",
+    "astro"
   ],
   // disable to prevent both VS Code's built-in linters and Stylelint from reporting the same errors
   "css.validate": false,
@@ -125,7 +143,7 @@
   "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint", "Stylelint"],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
-  "cSpell.userWords": ["nuxt", "gsap"],
+  "cSpell.userWords": ["nuxt", "gsap", "antfu", "bernankez"],
   "css.lint.hexColorLength": "ignore",
   "gitlens.codeLens.authors.enabled": true,
   "gitlens.codeLens.enabled": false, // true会导致文件保存时 vscode来回抖动
