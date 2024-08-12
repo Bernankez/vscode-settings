@@ -3,13 +3,13 @@
     "scope": "vue",
     "prefix": "<te",
     "body": [
-      "<template>",
-      "$0",
-      "</template>",
-      "",
       "<script setup lang=\"ts\">",
       "",
       "</script>",
+      "",
+      "<template>",
+      "$0",
+      "</template>",
       "",
     ]
   },
