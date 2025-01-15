@@ -32,6 +32,8 @@
         "oderwat.indent-rainbow",
         "WallabyJs.quokka-vscode",
         "iceworks-team.iceworks-time-master",
-        "GitHub.copilot"
+        // ai
+        "Continue.continue", // auto completions with DeepSeek
+        "RooVeterinaryInc.roo-cline", // chat/compose with DeepSeek
     ]
 }
