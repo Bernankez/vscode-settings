@@ -1,6 +1,6 @@
 {
     "recommendations": [
-        // necessary
+        /** necessary **/
         "antfu.icons-carbon", // product icon theme
         "file-icons.file-icons", // icon theme
         "antfu.theme-vitesse", // theme
@@ -10,30 +10,42 @@
         "dbaeumer.vscode-eslint",
         "antfu.iconify",
         "Vue.volar",
-        "ZixuanChen.vitest-explorer",
+        "vitest.explorer",
         "eamodio.gitlens",
         "mhutchie.git-graph",
         "MariusAlchimavicius.json-to-ts",
         "antfu.unocss",
         "christian-kohler.path-intellisense",
-        // recommended
+        /** recommended **/
+        "astro-build.astro-vscode", // Astro
+        "lokalise.i18n-ally", // i18n
+        "ritwickdey.LiveServer", // launch a live server for static html
         "wayou.vscode-todo-highlight",
         "naumovs.color-highlight",
-        "richie5um2.vscode-sort-json",
         "kisstkondoros.vscode-gutter-preview",
         "wix.vscode-import-cost",
-        "rangav.vscode-thunder-client",
+        "rangav.vscode-thunder-client", // VSCode only
         "johnsoncodehk.vscode-tsconfig-helper", // check what files tsconfig contains.
-        "stylelint.vscode-stylelint", // lint for css
+        // "stylelint.vscode-stylelint", // lint for css // sunset. I'm not using it
         "yoavbls.pretty-ts-errors", // friendly ts error prompt
         "antfu.goto-alias", // go to defination alias for auto-import
-        // up to me
+        // markdown
+        "Nuxt.mdc",
+        "unifiedjs.vscode-mdx",
+        "Amour1688.ts-in-markdown", // language support for ts in markdown
+        /** up to me **/
         "adpyke.codesnap",
         "oderwat.indent-rainbow",
         "WallabyJs.quokka-vscode",
         "iceworks-team.iceworks-time-master",
-        // ai
-        "Continue.continue", // auto completions with DeepSeek
-        "RooVeterinaryInc.roo-cline", // chat/compose with DeepSeek
+        "lixianmin.git-stats", // git contribution graph
+        // glsl
+        "GeForceLegend.vscode-glsl",
+        "raczzalan.webgl-glsl-editor",
+        // learning
+        "labuladong.leetcode-helper",
+        // ai (If not using cursor or copilot)
+        // "Continue.continue", // auto completions with DeepSeek
+        // "RooVeterinaryInc.roo-cline", // chat/compose with DeepSeek
     ]
 }

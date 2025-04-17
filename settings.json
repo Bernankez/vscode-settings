@@ -15,6 +15,7 @@
   "editor.cursorSmoothCaretAnimation": "on", // 平滑光标动画
   "editor.find.addExtraSpaceOnTop": true, // 查找框出现时不挡视线
   "editor.formatOnPaste": false, // 粘贴时格式化
+  "editor.gotoLocation.multipleDefinitions": "goto", // 控制存在多个目标位置时"转到定义"命令的行为。goto: 转到主结果，并对其他结果启用无速览导航
   "editor.guides.bracketPairs": "active", // 类似Bracket Pair
   "editor.hover.above": false,
   "editor.inlineSuggest.enabled": true, // 编辑器显示内联建议, Copilot给的代码提示就属于inline suggestion
@@ -38,6 +39,7 @@
   "window.dialogStyle": "custom", // 对话框外观, 微软风格
   "window.openFoldersInNewWindow": "on", // 在新窗口中打开文件夹
   "window.menuBarVisibility": "compact", // 菜单栏显示在侧边栏中
+  "workbench.activityBar.orientation": "vertical", // 侧边栏展示方向
   "workbench.editor.highlightModifiedTabs": true, // 高亮未保存的tab
   "workbench.tree.enableStickyScroll": true, // 侧边栏目录sticky效果, 默认7级
   "workbench.list.smoothScrolling": true, // 平滑滚动
