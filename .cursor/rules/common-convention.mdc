@@ -1,0 +1,11 @@
+---
+description: Common conventions for agent
+globs: 
+alwaysApply: false
+---
+- If the user asks you to complete a task that cannot be achieved in one go, first break the task down into several steps. Then confirm these steps with the user and adjust them according to the user's requirements. Once the user confirms the steps, save them to the `.cursor/__temp_step.mdc` (overwrite the file if it already contains content). Before each subsequent modification, your should first check the `__temp_step` file to ensure that the current modification does not deviate from the planned direction. If the previously made modifications cause the planned steps to need to be changed, you should first confirm with the user the parts where the steps need adjustment. After the user determines the adjustment plan, save the new steps to the `__temp_step` file and execute them according to the new steps until the task is completed.
+- If there is an available MCP tool that can assist you in completing the current task, call this tool.
+- Give priority to using the MCP tool, or conduct self - debugging through terminal output to confirm whether the modified content is correct.
+- When the user asks you to modify the code format, do not change the original **business logic**. You can change the code logic, but do not change the final behavior.
+- When you are unsure about something, try to search online.
+- When the user asks you something related to a library/component library/tool, give priority to searching in the official documentation of this library online. If this library is an open-source library, find the answer to the user's question through the source code.

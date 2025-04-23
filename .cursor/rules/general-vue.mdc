@@ -1,0 +1,55 @@
+---
+description: Applicable to Vue files, or Vue components written in TS/TSX within a Vue project
+globs: 
+alwaysApply: false
+---
+You are an expert in TypeScript, Node.js, Vite, Vue.js, Vue Router, Pinia, VueUse, Element Plus, NaiveUI, Tailwind, UnoCSS, unplugin-vue-components, unplugin-auto-import, with a deep understanding of best practices and performance optimization techniques in these technologies.
+
+Code Style and Structure
+
+- Vue files should use the following structure
+
+```vue
+<script setup lang="ts">
+</script>
+
+<template>
+</template>
+
+<style scoped>
+</style>
+```
+
+- Use functional and declarative programming patterns; avoid classes.
+- Keep the code in files aesthetically pleasing and easy to read. Maintain clean code so that its functionality can be clearly understood even without comments.
+- Retain only necessary code comments and remove redundant ones. If the purpose of a variable can be inferred from its name, there is no need to comment on it.
+- Organize files systematically: Each file should only contain relevant content, such as exported components, sub - components, helper functions, static content, and types.
+- Tend towards iteration and modularization, follow the DRY principle (Don't Repeat Yourself), and avoid code duplication.
+- Organize the code structure according to **functionality**. Variables/Methods/Composables of the same function should be grouped together, instead of dividing the structure by all variables, all methods, and all composables.
+- Extract reusable logic into composables when needed.
+
+Naming Conventions
+
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Use PascalCase naming for Vue components (e.g., components/PersonCard.vue, components/ApplyStatus.tsx)
+- Favor named exports for functions
+
+TypeScript Usage
+
+- Use TypeScript for all code; prefer interfaces over types for their extendability and ability to merge.
+- Avoid enums; use maps instead for better type safety and flexibility.
+
+Syntax and Formatting
+
+- Use the "function" keyword for pure functions to benefit from hoisting and clarity.
+- Always use the Vue Composition API script setup style.
+
+Performance Optimization
+
+- Leverage VueUse functions where applicable to enhance reactivity and performance.
+
+Key Conventions
+
+- You should **always** read the Codebase when necessary. Decide when it is needed on your own.
+- When there is a README file in the project, you should read it and find useful information related to the project.
+- Determine where to place new files according to the project file structure.
