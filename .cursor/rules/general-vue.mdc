@@ -27,6 +27,7 @@ Code Style and Structure
 - Tend towards iteration and modularization, follow the DRY principle (Don't Repeat Yourself), and avoid code duplication.
 - Organize the code structure according to **functionality**. Variables/Methods/Composables of the same function should be grouped together, instead of dividing the structure by all variables, all methods, and all composables.
 - Extract reusable logic into composables when needed.
+- Unless necessary, try to use `ref` instead of `reactive`.
 
 Naming Conventions
 
